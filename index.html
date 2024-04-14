@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Blog preview card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      .containerBox {
+        padding: 1.5rem;
+      }
+      span {
+        font-weight: bold;
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <section
+      class="flex items-center justify-center"
+      style="background-color: rgb(244, 208, 78)"
+    >
+      <div
+        class="my-[100px] border border-black rounded-2xl w-[90vw] md:w-[25vw] bg-white"
+        style="box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 1)"
+      >
+        <div class="containerBox">
+          <!-- Image -->
+          <div class="flex items-center justify-center">
+            <img
+              src="/assets/images/illustration-article.svg"
+              alt=""
+              class="border border-0 rounded-2xl w-full"
+            />
+          </div>
+          <!-- button -->
+          <button
+            class="py-2 border border-0 rounded-lg bg-yellow-500 font-bold px-4 my-4 block"
+          >
+            Learning
+          </button>
+          <!-- date -->
+          <span>Published 21 Dec 2023</span>
+          <!-- title -->
+          <h1
+            class="font-bold text-2xl my-4 cursor-pointer hover:text-[#f4d04e]"
+          >
+            HTML & CSS foundations
+          </h1>
+          <!-- explain -->
+          <p class="text-gray-500">
+            These languages are the backbone of every website, defining
+            structure, content, and presentation.
+          </p>
+          <!-- logo -->
+          <div class="flex items-center gap-2 my-4">
+            <div class="w-[40px]">
+              <img src="/assets/images/image-avatar.webp" alt="" />
+            </div>
+            <p class="font-bold">Greg Hooper</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Learning Published 21 Dec 2023 HTML & CSS foundations These languages are
+    the backbone of every website, defining structure, content, and
+    presentation. Greg Hooper -->
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+</html>
